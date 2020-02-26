@@ -60,13 +60,13 @@
             <!-- page content -->
             <div data-role="content" data-theme='c' style="background-color: lightgrey;">
                <h2>Create Task</h2>
-                Create Task <br />
+                <p>Create Task</p> <br />
                 <input type="text" value="" id="task" />
-                Enter a Date <br />
-                <input type="text" value="" id="date" />
-                Description <br />
+                <p>Enter a Date</p> <br />
+                <input type="text" value="" id="date"  />
+                <p>Description</p> <br />
                 <input type="text" value="" id="description" />
-                Location <br />
+                <p>Location</p> <br />
                 <input type="text" value="" id="location" />
                 <form>
                   <div class="ui-field-contain">
@@ -80,8 +80,8 @@
                   </div>
                 </form>
 
-                <input type="button" value="Add Task" id="buttonAdd"  data-inline="true" />
-                  <input type="button" value="Clear Data" id="buttonClear"  data-inline="true" />
+                <input type="button" value="Add Task" data-role="none" id="buttonAdd"  data-inline="true" />
+                  <input type="reset" value="Clear Data" data-role="none" id="buttonClear"  data-inline="true" />
             </div>
               
             <!--   page footer -->
@@ -110,8 +110,10 @@
               <h2> Tasks</h2>
               <div id="divTask" ></div>
             </div>
-            <input type="button" value="Sort By Task" id="buttonSortTask" data-inline="true" data-corners="true" />
-            <input type="button" value="Sort By Priority" id="buttonSortPriority" data-inline="true"  />
+            <input type="button" value="Sort By Task" id="buttonSortTask" data-inline="true" data-corners="true" data-role="none" />
+            <input type="button" value="Sort By Priority" id="buttonSortPriority" data-inline="true" data-role="none"   />
+          
+
               
             <!--   page footer -->
             <div data-role="footer" data-theme='b'>
