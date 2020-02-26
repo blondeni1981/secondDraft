@@ -34,7 +34,7 @@
                
             </div>
             <!--   page content -->
-            <div data-role="content" data-theme='b'>
+            <div data-role="content" data-theme='b' style="background-color: lightgray;">
             <h2> Welcome to the App That Creates and Stores Your Tasks</h2>
             </div>
               
@@ -58,7 +58,7 @@
                 </div><!-- /navbar -->
           </div>
             <!-- page content -->
-            <div data-role="content" data-theme='c'>
+            <div data-role="content" data-theme='c' style="background-color: lightgrey;">
                <h2>Create Task</h2>
                 Create Task <br />
                 <input type="text" value="" id="task" />
@@ -106,12 +106,12 @@
                 </div><!-- /navbar -->
           </div>
             <!--   page content -->
-            <div data-role="content" data-theme='e'>
+            <div data-role="content" data-theme='e' style="background-color: lightgray;">
               <h2> Tasks</h2>
-              <div id="divTask"></div>
+              <div id="divTask" ></div>
             </div>
-            <input type="button" value="Sort By Task" id="buttonSortTask" data-inline="true"  />
-            <input type="button" value="Sort By Priority" id="buttonSortPriority" data-inline="true"   />
+            <input type="button" value="Sort By Task" id="buttonSortTask" data-inline="true" data-corners="true" />
+            <input type="button" value="Sort By Priority" id="buttonSortPriority" data-inline="true"  />
               
             <!--   page footer -->
             <div data-role="footer" data-theme='b'>
@@ -135,7 +135,7 @@
                 </div><!-- /navbar -->
           </div>
             <!--  content -->
-            <div data-role="content" data-theme='c'>
+            <div data-role="content" data-theme='c' style="background-color: lightgray;">
                 <h3>Task Details</h3>
                 <p id="IDparmHere" hidden></p>  <!-- hidden    a place to stash the user ID -->
                <p id="oneTask"></p>
