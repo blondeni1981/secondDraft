@@ -11,7 +11,7 @@ var TaskObject = function (pTask, pDate, pPriority, pDescription, pLocation) {
   this.Location = pLocation;
 }
 
-taskArray.push(new TaskObject("Moonstruck", 1981, "Drama", "Nicholas Cage", "dasfa"));
+taskArray.push(new TaskObject("Clean", 04/01/2020, "****", "Bathroom, Kitchen ", "House"));
 
 
 document.addEventListener("DOMContentLoaded", function () {
